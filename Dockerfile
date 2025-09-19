@@ -1,8 +1,8 @@
 # Use uma imagem base oficial do Python
-FROM python:3.11-slim  
+FROM python:3
 
 # Define o diretório de trabalho dentro do contêiner
-WORKDIR /app  
+WORKDIR /usr/src/app  
 
 # Primeiro copia apenas o requirements.txt
 COPY requirements.txt .
